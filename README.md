@@ -1,5 +1,5 @@
 # attach-existing-artifacts-maven-plugin
-POC/early draft of a plugin which attaches already built artifacts to the maven build
+POC/early draft of a plugin which attaches already built artifacts to the maven build.
 
 
 The primary purpose of this plugin is to allow independent execution of the [maven-deploy-plugin](https://maven.apache.org/plugins/maven-deploy-plugin/)'s [deploy:deploy](https://maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html) goal without the prior [build stages in Maven](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html).
